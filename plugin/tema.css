@@ -1,4 +1,13 @@
+/* script CSS untuk website personal
+
+CSS Script for personalV2 site
+2019 HSD */
+
 .col{
+    border-style: solid;
+}
+
+.row{
     border-style: solid;
 }
 
@@ -16,3 +25,13 @@
     margin-top: 20%;
     margin-bottom: 20%;
 }
+
+#bagian_support{
+    width: 20%;
+}
+
+.gambar_footer{
+    width: 50px;
+    height: 50px;
+}
+
