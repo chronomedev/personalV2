@@ -12,6 +12,26 @@ CSS Script for personalV2 site
 }
 
 
+#c1{
+    background-color: aquamarine;
+}
+
+#zwei{
+    background-color:greenyellow;
+}
+
+#drei{
+    background-color: orangered;
+}
+
+#vier{
+    background-color:goldenrod;
+}
+
+.footer{
+    background-color:grey;
+}
+
 .kelas_gambar{
     margin-top:10%;
     margin-left:20%;
