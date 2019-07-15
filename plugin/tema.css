@@ -13,19 +13,23 @@ CSS Script for personalV2 site
 
 
 #c1{
-    background-color: aquamarine;
+    /* background-color: rgb(66, 189, 66); */
+    background: url('../img/baris1.jpg');
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: cover;
 }
 
 #zwei{
-    background-color:greenyellow;
+    background-color:gainsboro;
 }
 
 #drei{
-    background-color: orangered;
+    background-color: goldenrod;
 }
 
 #vier{
-    background-color:goldenrod;
+    background-color:orangered;
 }
 
 #footer{
