@@ -3,21 +3,30 @@
 CSS Script for personalV2 site
 2019 HSD */
 
-.col{
+/* .col{
     border-style: solid;
 }
 
 .row{
     border-style: solid;
+} */
+
+#uno{
+
+
 }
 
+#duo{
+    background-color: burlywood;
+    opacity: 0.7;
+}
 
 #c1{
-    /* background-color: rgb(66, 189, 66); */
-    background: url('../img/baris1.jpg');
-    background-repeat: no-repeat;
+    background-color: burlywood
+    /* background: url('../img/baris1.jpg'); */
+    /* background-repeat: unset; */
     /* background-size: contain; */
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 #zwei{
