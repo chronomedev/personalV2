@@ -26,7 +26,9 @@ Created and Designed by Hansrenee Willysandro alias HSD
     </div> -->
         <div id="c1" class="row">
             <div id='uno' class="col">
-                <img class='kelas_gambar' src='img/nier1.png'>
+                <!-- <img class='kelas_gambar' src='img/nier1.png'> -->
+                <img class='kelas_gambar' src="img/baris1.png" alt="image">
+
             </div>
             <div id="duo" class="col">
                 <center>
@@ -47,12 +49,12 @@ Created and Designed by Hansrenee Willysandro alias HSD
                 </div>
             </div>
             <div class="col">
-                <img class='kelas_gambar' src='img/gambar2.png'>
+                <img class='kelas_gambar' src='img/baris2.png'>
             </div>
         </div>
         <div id="drei" class="row">
             <div id="resp2" class="col">
-                <img class='kelas_gambar' src='img/gambar3.png'>
+                <img class='kelas_gambar' src='img/baris3.png'>
             </div>
             <div id="resp3" class="col">
                 <center>
@@ -72,35 +74,36 @@ Created and Designed by Hansrenee Willysandro alias HSD
 
             </div>
             <div class="col">
-                <img class='kelas_gambar' src='img/gambar3.png'>
+                <img class='kelas_gambar' src='img/baris4.png'>
             </div>
         </div>
 
     </div>
     <footer class="page-footer font-small pt-4" id="footer">
-            <center>
-                <h4>Want to support?</h4>
-                <div class="row" id="bagian_support">
+        <center>
+            <h4>Want to support?</h4>
+            <br>
+            <div class="row" id="bagian_support">
 
-                    <div class="col">
-                        <img class="gambar_footer" src="img/github.png">
-                    </div>
-                    <div class="col">
-                        <img class="gambar_footer" src="img/gmaillogo.png">
-                    </div>
-                    <div class="col">
-                        <img class="gambar_footer" src="img/add_icon.png">
-                    </div>
-
+                <div class="col">
+                    <img class="gambar_footer" src="img/github_white.png">
                 </div>
-                <br>
-                <p>&copy;Copyright 2019</p>
-                <hr>
-                <p>Hansrenee System Development</p>
-            </center>
+                <div class="col">
+                    <img class="gambar_footer" src="img/gmaillogo.png">
+                </div>
+                <div class="col">
+                    <img class="gambar_footer" src="img/add_icon2.png">
+                </div>
 
-        </footer>
+            </div>
+            <br>
+            <hr>
+            <p>&copy; Hansrenee System Development 2019</p>
+        </center>
+
+    </footer>
     </div>
+
 
 
 
@@ -109,6 +112,13 @@ Created and Designed by Hansrenee Willysandro alias HSD
     <script src="plugin/bootstrap.js"></script>
     <script src="plugin/kelasDOM.js"></script>
     <script src="plugin/responsif.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+    <script>
+        //parallax
+        var image = document.getElementsByClassName('kelas_gambar');
+        new simpleParallax(image,{scale:1.5});
+    </script>
+
 </body>
 
 </html>

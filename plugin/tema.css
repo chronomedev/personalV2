@@ -3,25 +3,32 @@
 CSS Script for personalV2 site
 2019 HSD */
 
-.col{
+/* .col{
     border-style: solid;
 }
 
 .row{
     border-style: solid;
+} */
+
+html{
+    background-color:rgb(124, 53, 27);
 }
 
-
 #c1{
+    background-color: blanchedalmond;
     /* background-color: rgb(66, 189, 66); */
-    background: url('../img/baris1.jpg');
+    /* background: url('../img/baris1.jpg'); */
     background-repeat: no-repeat;
     /* background-size: contain; */
     background-size: cover;
 }
 
+img{
+    /* border-style: solid; */
+}
 #zwei{
-    background-color:gainsboro;
+    background-color: #91bebb;
 }
 
 #drei{
@@ -29,19 +36,21 @@ CSS Script for personalV2 site
 }
 
 #vier{
-    background-color:orangered;
+    background-color: grey;
 }
 
 #footer{
-    background-color:grey;
+    background-color:rgb(124, 53, 27);
+    color: #d1c59a;
 }
 
 .kelas_gambar{
-    margin-top:10%;
+    /* margin-top:10%; */
     margin-left:20%;
     /* margin-right: 25%; */
-    width: 300px;
-    height: 300px;
+    width: 70%;
+    height:100%;
+
 }
 
 
