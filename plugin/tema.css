@@ -3,6 +3,8 @@
 CSS Script for personalV2 site
 2019 HSD */
 
+/* untuk debugging saja
+for debugging purposes */
 /* .col{
     border-style: solid;
 }
@@ -10,11 +12,6 @@ CSS Script for personalV2 site
 .row{
     border-style: solid;
 } */
-
-#uno{
-
-
-}
 
 #duo{
     background-color: burlywood;
@@ -28,9 +25,9 @@ CSS Script for personalV2 site
     /* background-size: cover; */
 }
 
-img{
+/* img{
     /* border-style: solid; */
-}
+} */
 #zwei{
     background-color: #91bebb;
 }
