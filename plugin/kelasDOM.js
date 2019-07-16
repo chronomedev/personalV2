@@ -2,21 +2,19 @@
 // kelas elemen html
 // 2019 Hansrenee Willysandro / HSD
 
-var kelasDOM = new function(){
-    // this.bagian1Show = function(){
-    //     document.getElementById('resp1').innerHTML = "<center><div class='center_content'><h1>Hansrenee Development System</h1><h4>Welcome to the official site of Hansrenee</h4></div></center>"
-    // };
+var kelasDOM = new function () {
 
-    this.bagian1Hide = function(){
+
+    this.bagian1Hide = function () {
         document.getElementById('resp1').innerHTML = "";
         //console.log("woi hideeee");
     };
 
-    this.writeDOM = function(elemen, isi){
+    this.writeDOM = function (elemen, isi) {
         document.getElementById(elemen).innerHTML = isi;
     };
-
-
-
-
 }
+
+// parallax effecs
+var image = document.getElementsByClassName('kelas_gambar');
+new simpleParallax(image, { scale: 1.5 });
