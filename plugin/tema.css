@@ -13,36 +13,43 @@ for debugging purposes */
     border-style: solid;
 } */
 
-#duo{
-    background-color: burlywood;
+
+
+html{
+    background-color: rgb(124, 53, 27);
 }
 
-#c1{
-    background-color: burlywood
-    /* background: url('../img/baris1.jpg'); */
-    /* background-repeat: unset; */
-    /* background-size: contain; */
-    /* background-size: cover; */
-}
 
-/* img{
-    /* border-style: solid; */
-} */
-#zwei{
-    background-color: #91bebb;
-}
-
-#drei{
-    background-color: goldenrod;
-}
-
-#vier{
-    background-color: grey;
-}
 
 #footer{
     background-color:rgb(124, 53, 27);
     color: #d1c59a;
+}
+
+.home1{
+    background-color: burlywood
+}
+
+.home2{
+    background-color: #91bebb;
+}
+
+.home3{
+    background-color: goldenrod;
+}
+
+.home4{
+    background-color: grey;
+}
+.contact1{
+    background-color: orangered;
+}
+
+.contact2{
+    background-color:lightgreen;
+}
+.contact3{
+    background-color: #77a7f4;
 }
 
 .kelas_gambar{
