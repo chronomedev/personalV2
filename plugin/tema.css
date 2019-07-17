@@ -1,5 +1,4 @@
 /* script CSS untuk website personal
-
 CSS Script for personalV2 site
 2019 HSD */
 
@@ -60,6 +59,50 @@ html{
     height:100%;
 
 }
+
+.box_content{
+    opacity: 0.8;
+    background-color:black;
+    /* margin-top:5%;
+    margin-bottom: 5%; */
+    /* float: left;
+    clear: both; */
+    border-style: dashed;
+    width:100%;
+    height:100%;
+}
+
+.box_content h1{
+    color:wheat;
+    font-size: 50px;
+}
+
+.content_small_container{
+       
+
+
+    font-size:20px;
+
+
+}
+.content_small_container_child{
+    padding-top: 5%;
+    margin-left: 10%;
+    color:wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width:100%px;
+    height:100%;
+
+}
+
+.smaller_font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+
+
+}
+
 
 
 .center_content{
