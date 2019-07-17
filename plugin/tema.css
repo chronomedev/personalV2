@@ -12,6 +12,9 @@ for debugging purposes */
     border-style: solid;
 } */
 
+div{
+    border-style:solid;
+}
 
 
 html{
@@ -63,6 +66,7 @@ html{
 .box_content{
     opacity: 0.8;
     background-color:black;
+    padding: 5%;
     /* margin-top:5%;
     margin-bottom: 5%; */
     /* float: left;
@@ -78,7 +82,6 @@ html{
 }
 
 .content_small_container{
-       
 
 
     font-size:20px;
@@ -87,11 +90,11 @@ html{
 }
 .content_small_container_child{
     padding-top: 5%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     color:wheat;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-    width:100%px;
+    width:100%;
     height:100%;
 
 }
@@ -103,7 +106,19 @@ html{
 
 }
 
+.content_title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    /*buat debugging aja(for debugging purpose)*/
+    /* border-style: dotted;*/
+    /* padding-top:11%; */
 
+}
+.center_content_contact1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    opacity: 0.8;
+}
 
 .center_content{
     margin-top: 20%;
