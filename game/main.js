@@ -12,7 +12,7 @@ function createPlayer(list_player){
     }
 
 }
-
+    
 
 function createRoom(){
 
