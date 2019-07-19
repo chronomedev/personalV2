@@ -23,6 +23,8 @@ function checkPlayer(){
         type : 'POST',
         success : function(result){
 
+            var result = JSON.parse(result);
+            
 
         },
         error: function(){
