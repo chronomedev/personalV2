@@ -58,6 +58,10 @@ html{
     background-color: #64c052;
 }
 
+.about2{
+    background-color: purple;
+}
+
 .kelas_gambar{
     /* margin-top:10%; */
     margin-left:20%;
@@ -65,6 +69,14 @@ html{
     width: 70%;
     height:100%;
 
+}
+
+.fill_gambar{
+    width: 100%;
+}
+
+.fiks{
+    position: fixed;
 }
 
 .box_content{
