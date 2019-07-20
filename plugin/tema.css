@@ -54,6 +54,10 @@ html{
     background-color: #77a7f4;
 }
 
+.about1{
+    background-color: #64c052;
+}
+
 .kelas_gambar{
     /* margin-top:10%; */
     margin-left:20%;
@@ -165,6 +169,7 @@ html{
 #resp8{
     display:inline;
 }
+
 @media screen and (max-width: 730px) {
 
     
