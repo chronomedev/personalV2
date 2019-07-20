@@ -1,7 +1,8 @@
 <?php
 
-
 //player class in php 
+//kelas pemain dalam server
+//2019 HSDev
 namespace pemain;
 
 class pemain{
@@ -17,6 +18,22 @@ class pemain{
         
 
     }
+
+    public function getCountPlayer(){
+        $data_mentah = $tihs->query->query('select count(*) from game.session');
+        echo var_dump($data_mentah);
+
+    }   
+
+    public function newPlayer($nama_pemain){
+        $komenSQL = $this->query->prepare('insert into master.pemain(nama_pemain)values(?)');
+        $komenSQL->execute([$nama_pemain]);
+        return true;
+        
+    }
+
+
+    
 }
 
 
