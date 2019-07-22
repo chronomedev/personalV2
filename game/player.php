@@ -19,11 +19,6 @@ class pemain{
 
     }
 
-    public function getCountPlayer(){
-        $data_mentah = $tihs->query->query('select count(*) from game.session');
-        echo var_dump($data_mentah);
-
-    }   
 
     public function newPlayer($nama_pemain){
         $komenSQL = $this->query->prepare('insert into master.pemain(nama_pemain)values(?)');
@@ -31,6 +26,12 @@ class pemain{
         return true;
         
     }
+
+    public function getHighScore(){
+
+    }
+
+    //public function 
 
 
     
