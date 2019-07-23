@@ -10,14 +10,16 @@
             echo var_dump($data_mentah);
     
         }   
+        public function generateSessionID(){
 
-
-        public function createSession(){
-            $state = 'insert'
         }
 
-        public function destroySession(){
+        public function createSession(){
+            $state = 'insert into game.session()values()';
+        }
 
+        public function destroySession($session_id){
+            state = "delete from game.session where session_id = $session_id";
         }
 
         //public function 
