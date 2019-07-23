@@ -19,7 +19,14 @@
         }
 
         public function destroySession($session_id){
-            state = "delete from game.session where session_id = $session_id";
+            try{
+                state = "delete from game.session where session_id = $session_id";
+                return true;
+            } catch(PDOException $e){
+                echo $e;
+                return false;
+            }
+
         }
 
         //public function 
